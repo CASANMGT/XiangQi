@@ -1,0 +1,5 @@
+{
+  "name": "Xiangqi Online",
+  "description": "A real-time multiplayer Chinese Chess application with AI support.",
+  "requestFramePermissions": []
+}

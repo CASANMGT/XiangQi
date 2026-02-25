@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Ma+Shan+Zheng&family=Zhi+Mang+Xing&display=swap');
+
+@theme {
+  --animate-spin-slow: spin 3s linear infinite;
+  --font-calligraphy: "Ma Shan Zheng", cursive;
+  --font-cursive: "Zhi Mang Xing", cursive;
+  --font-sans: "Roboto", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .scroll-texture {
+    background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+    background-color: #f4e4bc;
+  }
+  
+  .board-texture {
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+    background-color: #d2b48c;
+  }
+}
